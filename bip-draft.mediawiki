@@ -17,7 +17,7 @@
 
 ==Copyright==
 
-==BIP Editor and Responsibilities==
+===BIP Editor and Responsibilities===
 
 ==Specification==
 
