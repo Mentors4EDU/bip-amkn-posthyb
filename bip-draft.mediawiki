@@ -30,6 +30,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 End license text.
 
 ===BIP Editor and Responsibilities===
+The current BIP editor/champion of this proposal '''(the actual author)''' will be responsible for the following:
+# Updating the BIP over time
+# Advocating for needed updates and changes
+# Communicating and commenting on community concerns
+# Leading the implementation and development of the proposed BIP
 
 ==Specification==
 
