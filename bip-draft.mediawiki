@@ -11,9 +11,6 @@
   Replaces: N/A
 </pre>
 
-==Preamble==
-The purpose of this proposal is primarily related to Bitcoin's hashing algorithm and cryptography. The idea is centered around an improvement on hashing efficiency and better security. The aim is for mining to be compatible the way that it currently is, as well as memory hard compatibility as well. Besides memory hard or ''proof of space and time'' compatibility, there is another reason that integration needs to be implemented. This includes a cryptographic proof for NP completeness as how to best avoid a significant complexity cracking in the future or a cryptographic attack vector. Nonetheless, Bitcoin's  level of cryptography needs to significantly change in order for Bitcoin to be decentralized and relavant in the future. Significant worries such as Post-Classical Computing i.e Quantum Computing, the solving of the P vs. NP or other threats are posed for Bitcoin's sustainable future. Tackling many of these threats can better be instigated with the cryptographic proofs and systems I believe could be of value.
-
 ==Abstract==
 This BIP aims to provide a more complex cryptography alternative to Bitcoin's traditional encryption scheme. It also specifies a hybrid consensus for allowing both traditional POW and memory hard hashing. The aim is for more optimized cryptographic efficiency and sustainable security in the future.
 
@@ -38,6 +35,9 @@ The current BIP editor/champion of this proposal '''(the actual author)''' will 
 # Leading the implementation and development of the proposed BIP
 
 ==Specification==
+
+==Motivation==
+The purpose of this proposal is primarily related to Bitcoin's hashing algorithm and cryptography. The idea is centered around an improvement on hashing efficiency and better security. The aim is for mining to be compatible the way that it currently is, as well as memory hard compatibility as well. Besides memory hard or ''proof of space and time'' compatibility, there is another reason that integration needs to be implemented. This includes a cryptographic proof for NP completeness as how to best avoid a significant complexity cracking in the future or a cryptographic attack vector. Nonetheless, Bitcoin's  level of cryptography needs to significantly change in order for Bitcoin to be decentralized and relavant in the future. Significant worries such as Post-Classical Computing i.e Quantum Computing, the solving of the P vs. NP or other threats are posed for Bitcoin's sustainable future. Tackling many of these threats can better be instigated with the cryptographic proofs and systems I believe could be of value.
 
 ===Rationale=== 
 In regards to cryptographic hashing, an advancement beyond Satoshi's chosen secp256k1 algorithm needs to happen in regards to sustainable security for the near future. This is in part due to the fact that the elliptic curve encryption chosen is very susceptible to break. I believe an asymmetric cryptography algorithm can be better optimized for polynomial time complexity such as an NP hardness encryption scheme possibly based off of Homomorphic encryption, or some sort of regressional model that can be more prominent in the future. 
