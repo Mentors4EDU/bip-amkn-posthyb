@@ -12,6 +12,7 @@
 </pre>
 
 ==Preamble==
+The purpose of this proposal is primarily related to Bitcoin's hashing algorithm and cryptography. The idea is centered around an improvement on hashing efficiency and better security. The aim is for mining to be compatible the way that it currently is, as well as memory hard compatibility as well. Besides memory hard or ''proof of space and time'' compatibility, there is another reason that integration needs to be implemented. This includes a cryptographic proof for NP completeness as how to best avoid a significant complexity cracking in the future or a cryptographic attack vector. Nonetheless, Bitcoin's  level of cryptography needs to significantly change in order for Bitcoin to be decentralized and relavant in the future. Significant worries such as Post-Classical Computing i.e Quantum Computing, the solving of the P vs. NP or other threats are posed for Bitcoin's sustainable future. Tackling many of these threats can better be instigated with the cryptographic proofs and systems I believe could be of value.
 
 ==Abstract==
 
