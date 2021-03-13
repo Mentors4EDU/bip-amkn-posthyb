@@ -60,9 +60,9 @@ Once this started getting some general concensus, I am to publish some preprints
 <br>
 [2] [https://bitcoin.org/en/alert/2015-07-04-spv-mining#cause Some Miners Generating Invalid Blocks]
 <br>
-[3] [https://cs.stackexchange.com/questions/356/why-hasnt-there-been-an-encryption-algorithm-that-is-based-on-the-known-np-hard]
+[3] [https://cs.stackexchange.com/questions/356/why-hasnt-there-been-an-encryption-algorithm-that-is-based-on-the-known-np-hard Why hasn't there been an encryption algorithm that is based on the known NP-Hard problems?]
 <br>
-[4] [https://en.wikipedia.org/wiki/McEliece_cryptosystem]
+[4] [https://en.wikipedia.org/wiki/McEliece_cryptosystem McEliece cryptosystem]
 
 ===Acknowledgements===
 Partial inspiration comes from the [https://www.chia.net/ Chia Network], however this isn't the same thing. The algorithmic capabilities and cryptography scheme in this proposal isn't meant to be a replacement to PoW, rather we are giving PoW data storage memory-hard compatibility w/ the currently existing hashing compatibilities it has now. We also were somewhat inspired by the halting problem and [http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.263.9717 Quantum recursion theory]. There is a huge belief behind this proposal that Bitcoin will radically need to change its cryptography to be relevant in the not so distant future. Regardless of supposed controversy, this is a huge step evidentially needing to be done and even allows for Bitcoin to be further decentralized than what it currently is. I am looking to help create some of these custom cryptographic proofs that may help with that mission.
