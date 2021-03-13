@@ -37,7 +37,7 @@ The current BIP editor/champion of this proposal '''(the actual author)''' will 
 ==Specification==
 # I do want to implement a NP hardness encryption scheme for complexity. This is not to be confused w/ cryptography for the polynomial reconsructive problem '''[1]'''
 # I am looking towards integrating memory hard compatibility w/ the mining algorithm. Memory hard computation allows for time and space complexity for data storage functionality, and there is a way this can likely be implemented without disenfranchising current miners or their hardware if done right.
-# I am looking towards more complex ways to tackle invalid blocks or sustainability problems. Most likely this may integrate a lot of custom code, but may be an impmentation in regards to this specification. Also see '''[2]'''
+# I am looking towards more complex ways to tackle invalid blocks or sustainability problems. Most likely this may integrate a lot of custom code, but may be an implementation in regards to this specification. Also see '''[2]'''
 # The traditional PoW style mining and an asymmetric key encryption scheme will still be implemented in this new hard fork.
 
 ===Motivation===
