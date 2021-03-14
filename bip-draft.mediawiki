@@ -71,7 +71,7 @@ Once my proposal starts getting some general concensus, I aim to publish some pr
 <br>
 5. '''Xll:''' Former SHA-3 candidate that was previously ASIC-resistant '''[8]'''
 <br>
-6: '''Proof of Capacity:''' In layman terms, proof of Work done through data storage
+6: '''Proof of Capacity:''' In layman terms, Proof of Work done through data storage
 <br>
 7: '''Memory-hard:''' Functions that require significant amounts of memory to evaluate. '''[9]''' However, this can go beyond CPU-cycles.
 <br>
