@@ -63,7 +63,7 @@ Once my proposal starts getting some general concensus, I aim to publish some pr
 ===Definitions===
 1. '''Consensus:''' The agreement protocol among nodes/peers in the network
 <br>
-2. '''Post-Classical Computing:''' Primarily refers to computing w/ a non-classical form of computation. Primarily it often refers to Quantum Computing, but every ocassionally is used in reference to forms of DNA computing or other less common areas.
+2. '''Post-Classical Computing:''' Primarily refers to computing w/ a non-classical form of computation. Primarily it often refers to Quantum Computing, but very ocassionally is used in reference to forms of DNA computing or other less common areas.
 <br>
 3. '''secp256k1:''' The elliptic curve parameters for Bitcoin's public-key cryptography. '''[6]'''
 <br>
