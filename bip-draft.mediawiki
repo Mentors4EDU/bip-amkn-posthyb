@@ -56,7 +56,7 @@ Outside of hardware availability, is also a need for an algorithm to be optimize
 [[File:https://raw.githubusercontent.com/Mentors4EDU/bip-amkn-posthyb/main/bip-amkn-posthyb/Proposal%20Diagram.png]]
 I want to emphasize that I believe greater mining compatibility means a higher level of decentralization. Also, in regards to encryption keys and validation, I believe a higher level of security on that front also means a higher level of decentralization. On the issue of mining, I believe that a hybrid consensus done right wouldn't disenfranchise current miners (as stated prior), and would also still allow people with other hardware to mine BTC. 
 
-I believe a key validation system if done right, could eventually reach NP-completeness. Many promising algorithms have had forms of NP-Completeness in regards to encryption schemes, and coincidentally some of them were also known to be forms of Post-Quantum encryption '''[5]'''. Building an NP-Complete solution can be centered around, yes, it can be solved utilizing deterministic Turing machines, but make the luck chance near impossible forming some form of Information-theoretic security in theory.
+I believe a key validation system if done right, could eventually reach NP-completeness. Many promising algorithms have had forms of NP-Completeness in regards to encryption schemes, and coincidentally some of them were also known to be forms of Post-Quantum encryption '''[5]'''. Building an NP-Complete solution can be centered around, yes, it can be solved utilizing deterministic Turing machines, but make the luck chance near impossible forming some form of information-theoretic security in theory.
 
 Once my proposal starts getting some general concensus, I aim to publish some preprints further detailing the encryption scheme and math. The same applies to starting the coding and software development, as I have the workflow planned out.
 
@@ -75,7 +75,7 @@ Once my proposal starts getting some general concensus, I aim to publish some pr
 <br>
 7: '''Memory-hard:''' Functions that require significant amounts of memory to evaluate. '''[9]''' However, this can go beyond CPU-cycles.
 <br>
-8: '''NP-Complete:''' NP Complete is different then NP-hardness and hardness of an NP-Complete problem. NP Complete problems are the hardest in the NP complexity class. In regards to hardness, one can optimize building a solution that is near impossible to solve over deterministic brute force or some sort of Information-theoretic security scheme such as MPC. '''[10]''' 
+8: '''NP-Complete:''' NP Complete is different then NP-hardness and hardness of an NP-Complete problem. NP Complete problems are the hardest in the NP complexity class. In regards to hardness, one can optimize building a solution that is near impossible to solve over deterministic brute force or some sort of information-theoretic security scheme such as MPC. '''[10]''' 
 <br>
 9: '''Asymmetric Keys:''' An encryption validation scheme that utilizes private/public keys.
 <br>
