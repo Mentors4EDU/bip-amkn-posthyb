@@ -54,7 +54,7 @@ Outside of hardware availability, is also a need for an algorithm to be optimize
 
 ==Backwards compatibility==
 *Will add a backwards compatibility section
-This should be backwards compatible with stratum and [https://github.com/bitcoin/bips BIP 40 and 41]. Things such as blind merged mining in [https://github.com/bitcoin/bips/blob/master/bip-0301.mediawiki BIP 301], will likely not work. [https://github.com/bitcoin/bips/blob/master/bip-0340.mediawiki BIP 340] is implemented specifially for secp256k1. In regards to BIP 151 compatibility, BIP 151 was already withdrawn. 
+This should be backwards compatible with stratum and [https://github.com/bitcoin/bips BIP 40 and 41]. Things such as blind merged mining in [https://github.com/bitcoin/bips/blob/master/bip-0301.mediawiki BIP 301], will likely not work. [https://github.com/bitcoin/bips/blob/master/bip-0340.mediawiki BIP 340] is implemented specifially for secp256k1. In regards to [https://github.com/bitcoin/bips/blob/master/bip-0151.mediawiki BIP 151] compatibility, BIP 151 was already withdrawn. 
 
 ==Reference implementation==
 [[File:https://raw.githubusercontent.com/Mentors4EDU/bip-amkn-posthyb/main/bip-amkn-posthyb/Proposal%20Diagram.png]]
