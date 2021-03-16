@@ -39,6 +39,24 @@ The current BIP editor/champion of this proposal '''(the actual author)''' will 
 # I am looking towards integrating memory hard compatibility w/ the mining algorithm. Memory hard computation allows for time and space complexity for data storage functionality, and there is a way this can likely be implemented without disenfranchising current miners or their hardware if done right.
 # I am looking towards more complex ways to tackle invalid blocks or sustainability problems. Most likely this may integrate a lot of custom code, but may be an implementation in regards to this specification. Also see '''[2]'''
 # The traditional PoW style mining and an asymmetric key encryption scheme will still be implemented in this new hard fork.
+{| class="wikitable"
+|+ style="caption-side:bottom; color:#e76700;"|''Regular vs. Hybrid Mining''
+|-
+! style="color:red" | Regular
+! style="color:green" | Hybrid
+|-
+|ASIC
+|Multiple
+|-
+|Non-Optimized
+|Optimized
+|-
+|Slower Network
+|Faster Network
+|-
+|Lower Security
+|Higher Security
+|}
 
 ===Motivation===
 The purpose of this proposal is primarily related to Bitcoin's consensus algorithm and cryptography. The idea is centered around an improvement on mining efficiency and better security. The aim is for mining to be compatible the way that it currently is, as well as memory hard compatibility as well. Besides memory hard or ''proof of space and time'' compatibility, there are other reasons these integrations need to be implemented. This includes a cryptographic proof for NP completeness as how to best avoid a significant complexity cracking in the future or a cryptographic attack vector. Nonetheless, Bitcoin's  level of cryptography needs to significantly change in order for Bitcoin to be decentralized and relevant in the future. Significant worries such as Post-Classical Computing i.e Quantum Computing, the solving of the P vs. NP or other threats are posed for Bitcoin's sustainable future. Tackling many of these threats can better be instigated with the cryptographic proofs and systems I believe could be of value.
@@ -54,13 +72,15 @@ Outside of hardware availability, is also a need for an algorithm to be optimize
 
 ==Backwards compatibility==
 *Will add a backwards compatibility section
-This should be backwards compatible with stratum and [https://github.com/bitcoin/bips BIP 40 and 41]. Things such as blind merged mining in [https://github.com/bitcoin/bips/blob/master/bip-0301.mediawiki BIP 301], will likely not work. [https://github.com/bitcoin/bips/blob/master/bip-0340.mediawiki BIP 340] is implemented specifially for secp256k1. In regards to [https://github.com/bitcoin/bips/blob/master/bip-0151.mediawiki BIP 151] compatibility, BIP 151 was already withdrawn. 
+This should be backwards compatible with stratum and [https://github.com/bitcoin/bips BIP 40 and 41]. Things such as blind merged mining in [https://github.com/bitcoin/bips/blob/master/bip-0301.mediawiki BIP 301], will likely not work. [https://github.com/bitcoin/bips/blob/master/bip-0340.mediawiki BIP 340] is implemented specifially for secp256k1. In regards to [https://github.com/bitcoin/bips/blob/master/bip-0151.mediawiki BIP 151] compatibility, BIP 151 was already withdrawn.
+
+Keep in mind that given the cryptography method, most likely a new address type would need to be created '''[5]'''. 
 
 ==Reference implementation==
 [[File:https://raw.githubusercontent.com/Mentors4EDU/bip-amkn-posthyb/main/bip-amkn-posthyb/Proposal%20Diagram.png]]
 I want to emphasize that I believe greater mining compatibility means a higher level of decentralization. Also, in regards to encryption keys and validation, I believe a higher level of security on that front also means a higher level of decentralization. On the issue of mining, I believe that a hybrid consensus done right wouldn't disenfranchise current miners (as stated prior), and would also still allow people with other hardware to mine BTC. 
 
-I believe a key validation system if done right, could eventually reach NP-completeness. Many promising algorithms have had forms of NP-Completeness in regards to encryption schemes, and coincidentally some of them were also known to be forms of Post-Quantum encryption '''[5]'''. Building an NP-Complete solution can be centered around, yes, it can be solved utilizing deterministic Turing machines, but make the luck chance near impossible forming some form of information-theoretic security in theory.
+I believe a key validation system if done right, could eventually reach NP-completeness. Many promising algorithms have had forms of NP-Completeness in regards to encryption schemes, and coincidentally some of them were also known to be forms of Post-Quantum encryption '''[6]'''. Building an NP-Complete solution can be centered around, yes, it can be solved utilizing deterministic Turing machines, but make the luck chance near impossible forming some form of information-theoretic security in theory.
 
 Once my proposal starts getting some general concensus, I aim to publish some preprints further detailing the encryption scheme and math. The same applies to starting the coding and software development, as I have the workflow planned out.
 
@@ -69,23 +89,23 @@ Once my proposal starts getting some general concensus, I aim to publish some pr
 <br>
 2. '''Post-Classical Computing:''' Primarily refers to computing w/ a non-classical form of computation. Primarily it often refers to Quantum Computing, but very occasionally is used in reference to forms of DNA computing or other less common areas.
 <br>
-3. '''secp256k1:''' The elliptic curve parameters for Bitcoin's public-key cryptography. '''[6]'''
+3. '''secp256k1:''' The elliptic curve parameters for Bitcoin's public-key cryptography. '''[7]'''
 <br>
-4. '''Hashcash:''' A PoW algorithm made by Adam Beck that is widely used for Bitcoin's mining functionality. '''[7]'''
+4. '''Hashcash:''' A PoW algorithm made by Adam Beck that is widely used for Bitcoin's mining functionality. '''[8]'''
 <br>
-5. '''Xll:''' Former SHA-3 candidate that was previously ASIC-resistant '''[8]'''
+5. '''Xll:''' Former SHA-3 candidate that was previously ASIC-resistant '''[9]'''
 <br>
 6: '''Proof of Capacity:''' In layman terms, Proof of Work done through data storage
 <br>
-7: '''Memory-hard:''' Functions that require significant amounts of memory to evaluate. '''[9]''' However, this can go beyond CPU-cycles.
+7: '''Memory-hard:''' Functions that require significant amounts of memory to evaluate. '''[10]''' However, this can go beyond CPU-cycles.
 <br>
-8: '''NP-Complete:''' NP Complete is different then NP-hardness and hardness of an NP-Complete problem. NP Complete problems are the hardest in the NP complexity class. In regards to hardness, one can optimize building a solution that is near impossible to solve over deterministic brute force or some sort of information-theoretic security scheme such as MPC. '''[10]''' 
+8: '''NP-Complete:''' NP Complete is different then NP-hardness and hardness of an NP-Complete problem. NP Complete problems are the hardest in the NP complexity class. In regards to hardness, one can optimize building a solution that is near impossible to solve over deterministic brute force or some sort of information-theoretic security scheme such as MPC. '''[11''' 
 <br>
 9: '''Asymmetric Keys:''' An encryption validation scheme that utilizes private/public keys.
 <br>
 10: '''ASIC Mining:''' ASIC stands for application-specific integrated circuit, and is often synonymous with specialized hardware.
 <br>
-11: '''Homomorphic encryption:''' An encryption scheme that lets one perform calculations on the data prior to decryption. '''[11]'''
+11: '''Homomorphic encryption:''' An encryption scheme that lets one perform calculations on the data prior to decryption. '''[12]'''
 
 ==See Also==
 [1] [https://ieeexplore.ieee.org/document/1684586 Evaluation of Polynomial Reconstruction Problem using Lagrange Interpolation Method]
@@ -96,18 +116,20 @@ Once my proposal starts getting some general concensus, I aim to publish some pr
 <br>
 [4] [https://en.wikipedia.org/wiki/McEliece_cryptosystem McEliece cryptosystem]
 <br>
-[5] [https://en.wikipedia.org/wiki/NIST_Post-Quantum_Cryptography_Competition NIST Post-Quantum Cryptography Competition]
+[5] [https://en.bitcoin.it/wiki/Quantum_computing_and_Bitcoin Quantum computing and Bitcoin]
 <br>
-[6] [https://en.bitcoin.it/wiki/Secp256k1 Secp256k1]
+[6] [https://en.wikipedia.org/wiki/NIST_Post-Quantum_Cryptography_Competition NIST Post-Quantum Cryptography Competition]
 <br>
-[7] [http://www.hashcash.org/ Hashcash]
+[7] [https://en.bitcoin.it/wiki/Secp256k1 Secp256k1]
 <br>
-[8] [https://en.bitcoinwiki.org/wiki/X11 X11]
+[8] [http://www.hashcash.org/ Hashcash]
 <br>
-[9] [https://en.wikipedia.org/wiki/Memory-hard_function Memory-hard function]
+[9] [https://en.bitcoinwiki.org/wiki/X11 X11]
 <br>
-[10] [https://en.wikipedia.org/wiki/Secure_multi-party_computation MPC]
+[10] [https://en.wikipedia.org/wiki/Memory-hard_function Memory-hard function]
 <br>
-[11] [https://en.wikipedia.org/wiki/Homomorphic_encryption Homomorphic encryption]
+[11] [https://en.wikipedia.org/wiki/Secure_multi-party_computation MPC]
+<br>
+[12] [https://en.wikipedia.org/wiki/Homomorphic_encryption Homomorphic encryption]
 ===Acknowledgements===
 Partial inspiration comes from the [https://www.chia.net/ Chia Network], however this isn't the same thing. The mining capabilities in this proposal isn't meant to be a replacement to PoW, rather we are giving PoW data storage memory-hard compatibility w/ the currently existing mining compatibilities it has now. In regards to overall cryptography, we were somewhat inspired by the halting problem and [http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.263.9717 Quantum recursion theory]. There is a huge belief behind this proposal that Bitcoin will radically need to change its cryptography to be relevant in the not so distant future. Regardless of supposed controversy, this is a huge step evidentially needing to be done and even allows for Bitcoin to be further decentralized than what it currently is. I am looking to help create some of these custom cryptographic proofs that may help with that mission.
