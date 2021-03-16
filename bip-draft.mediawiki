@@ -52,6 +52,9 @@ I also believe the PoW algorithm can be modified to allow mining the way it is c
 
 Outside of hardware availability, is also a need for an algorithm to be optimized towards less invalidated blocks. This will be feasible with complex data store functionalities.
 
+==Backwards compatibility==
+*Will add a backwards compatibility section
+
 ==Reference implementation==
 [[File:https://raw.githubusercontent.com/Mentors4EDU/bip-amkn-posthyb/main/bip-amkn-posthyb/Proposal%20Diagram.png]]
 I want to emphasize that I believe greater mining compatibility means a higher level of decentralization. Also, in regards to encryption keys and validation, I believe a higher level of security on that front also means a higher level of decentralization. On the issue of mining, I believe that a hybrid consensus done right wouldn't disenfranchise current miners (as stated prior), and would also still allow people with other hardware to mine BTC. 
