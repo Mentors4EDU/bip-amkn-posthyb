@@ -61,6 +61,10 @@ The current BIP editor/champion of this proposal '''(the actual author)''' will 
 * Randomization and recomputation
 * Similar to diceware in paraphrasing
 
+[https://www.youtube.com/watch?v=IvNT2UtsISM [[File:https://img.youtube.com/vi/IvNT2UtsISM/0.jpg|VideoIntro]]]
+
+[https://lonero.org/pocp.html Further Information]
+
 [[File:https://raw.githubusercontent.com/Mentors4EDU/bip-amkn-posthyb/main/bip-amkn-posthyb/Regular%20vs%20Hybrid%20UML.png]]
 
 ===Motivation===
