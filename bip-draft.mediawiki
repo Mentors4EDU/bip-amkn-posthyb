@@ -109,6 +109,18 @@ I also believe the PoW algorithm can be modified to allow mining the way it is c
 
 Outside of hardware availability, is also a need for an algorithm to be optimized towards less invalidated blocks. This will be feasible with complex data store functionalities.
 
+===Core Considerations===
+
+====Proof of Computation====
+
+====Cryptographic Generation====
+
+=====Quantum Random Numbers=====
+
+======Cipher Mechanisms======
+
+====Overall Hardfork and Blockchain====
+
 ==Backwards compatibility==
 This should be backwards compatible with stratum and [https://github.com/bitcoin/bips BIP 40 and 41]. Things such as blind merged mining in [https://github.com/bitcoin/bips/blob/master/bip-0301.mediawiki BIP 301], will likely not work. [https://github.com/bitcoin/bips/blob/master/bip-0340.mediawiki BIP 340] is implemented specifially for secp256k1. In regards to [https://github.com/bitcoin/bips/blob/master/bip-0151.mediawiki BIP 151] compatibility, BIP 151 was already withdrawn.
 
