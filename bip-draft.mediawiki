@@ -115,6 +115,10 @@ Outside of hardware availability, is also a need for an algorithm to be optimize
 
 ===Core Considerations===
 
+====Bitcoin's Weakness====
+
+=====Energy Consumption=====
+
 ====Proof of Computation====
 
 ====Cryptographic Generation====
