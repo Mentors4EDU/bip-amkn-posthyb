@@ -107,7 +107,7 @@ As stated prior, post-classical computing and potential unsolved mathematical th
 
 I also believe the PoW algorithm can be modified to allow mining the way it is currently done, as well as be more compatible for memory hard mining functionality. An implementation of a hybrid PoST ''(Proof of Space and Time)'' algorithm and traditional PoW ''(Proof of Work)'' is more suited for modern day cryptocurrency mining. While memory-hard hardware might be comparable to the costs of ASIC specific hardware in regards to mining efficiency, this new implementation is more related to expanding the infrastructure available for mining Bitcoin. 
 
-Outside of hardware availability, is also a need for an algorithm to be optimized towards less invalidated blocks. This will be feasible with complex data store functionalities.
+Outside of hardware availability, is also a need for an algorithm to be optimized towards less invalidated blocks. This will be feasible with complex data store functionalities. The hybrid system which is similar to a variation of Proof of Computation, is likely what will allow this hard fork higher adaptability if given the same chance to scale. Also, when you look at the combination of a more efficient mining algorithm and potentially higher levels of security, this hard fork can be easily upgradeable around certain technologies in the distant future such as mainstream Quantum advantage and supremacy. This is especially true considering where RSA and other hashing algorithms might stand in the future.
 
 ===Core Considerations===
 
