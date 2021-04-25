@@ -65,7 +65,11 @@ The current BIP editor/champion of this proposal '''(the actual author)''' will 
 
 In regards to technological feasibility, this proposal does have a level of technological soundness in regards to implementation and how it is being developed. As noted, the biggest regard is in relation to cryptography and mining efficiency. Since you are making dramatic changes that may take a while to reach necessary consensus, likely this will need to be implemented through a hard fork. Many implications are considered in regards to the development of this proposal. For starters, a good reference point is in regards to the algorithmic implementations.
 
-The new mining algorithm is a form of PoW in nature. That form is an example of proof of computation, and how to derive hashing power efficiently from both specialized hardware and the non-specialized. As noted, a core advantage is adaptability.
+The new mining algorithm is a form of PoW in nature. That form is an example of proof of computation, and how to derive hashing power efficiently from both specialized hardware and the non-specialized. As noted, a core advantage is adaptability. 
+
+When you look at the combination of a more efficient mining algorithm and potentially higher levels of security, this hard fork can be easily upgradeable around certain technologies in the distant future such as mainstream Quantum advantage and supremacy. This is especially true considering where RSA and other hashing algorithms might stand in the future.
+
+Access to more hardware makes it easier to fend off attacks, and an upgraded mining algorithm (which is seperate from the security upgrade), will provide the hashing power needed for optimized speed as well.
 
 ===Motivation===
 The purpose of this proposal is primarily related to Bitcoin's mining algorithm, consensus and cryptography. The idea is centered around an improvement on mining efficiency and better security. The aim is for mining to be compatible the way that it currently is, as well as memory hard compatibility as well. Besides memory hard or ''proof of space and time'' compatibility, there are other changes that I'm looking towards implementation. This includes a cryptographic proof for NP completeness as how to best avoid a significant complexity cracking in the future or a cryptographic attack vector. 
@@ -107,7 +111,7 @@ As stated prior, post-classical computing and potential unsolved mathematical th
 
 I also believe the PoW algorithm can be modified to allow mining the way it is currently done, as well as be more compatible for memory hard mining functionality. An implementation of a hybrid PoST ''(Proof of Space and Time)'' algorithm and traditional PoW ''(Proof of Work)'' is more suited for modern day cryptocurrency mining. While memory-hard hardware might be comparable to the costs of ASIC specific hardware in regards to mining efficiency, this new implementation is more related to expanding the infrastructure available for mining Bitcoin. 
 
-Outside of hardware availability, is also a need for an algorithm to be optimized towards less invalidated blocks. This will be feasible with complex data store functionalities. The hybrid system which is similar to a variation of Proof of Computation, is likely what will allow this hard fork higher adaptability if given the same chance to scale. Also, when you look at the combination of a more efficient mining algorithm and potentially higher levels of security, this hard fork can be easily upgradeable around certain technologies in the distant future such as mainstream Quantum advantage and supremacy. This is especially true considering where RSA and other hashing algorithms might stand in the future.
+Outside of hardware availability, is also a need for an algorithm to be optimized towards less invalidated blocks. This will be feasible with complex data store functionalities.
 
 ===Core Considerations===
 
