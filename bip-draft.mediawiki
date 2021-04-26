@@ -126,7 +126,13 @@ One of the bigger problems, is energy consumption as well as the fact that Bitco
 It is also worth noting that some hardforks to an extent have successfully upgraded or changed the mining algorithm. An example of this to an extent may even be something like [https://litecoin.org/ Litecoin]. Infact, many people would say Litecoin is one of the better examples out there. Litecoin also has the problem of disenfranchising ASIC miners and similar future security risks.
 
 =====Energy Consumption=====
-There are many stats worth iterating when taking into account Bitcoin's energy consumption. Also, even if lots of BTC is mined with renewables in the future, an energy consumption problem that can be avoided should lead to a more optimal blockchain regardless.
+There are many stats worth iterating when taking into account Bitcoin's energy consumption. Also, even if lots of BTC is mined with renewables in the future, an energy consumption problem that can be avoided should lead to a more optimal blockchain regardless. Bitcoin is an energy intensive network while having limitations to scale. It can handle an estimated 5 to 7 transactions per second, according to various sources such as [https://www.blockchain.com/charts/transactions-per-second Blockchain.com]. While the full reliability of these sources could come into question, various sources reiterate the same thing.
+
+As of March 2021 and now even April, the energy required for a single BTC transaction is 1065.95 kWh. That is the equivalent to the power consumption of the average US household in a period of 36.54 days, according to the [https://digiconomist.net/bitcoin-energy-consumption/ Digiconomist]. According to the same source, [https://digiconomist.net/ethereum-energy-consumption Ethereum's network] also has growing energy consumption concerns. Single Ethereum transactions have the carbon footprint of 79,655 Visa stransactions, while single Bitcoin transactions by that metric have the carbon footprint of 1,122,196 Visa transactions.
+
+According to various sources suh as CryptoVantage and Princeton, China has an overwhelming majority stake in Bitcoin's hash rate. Although, the rate have steadily been declining over the years from nearly 80 too 60%. Still, this raises concerns on the potential ability to centralize mining.
+
+When taking into consideration the sustainbility problem and problems related to power consumptions, renewables is too simple of an answer. The fact that it is still increasingly energy intensive, means increasing cost with renewables. It also means problems in regards to scalability and speed. The transaction times of the network are also quite slow considering the computing power it relies upon.
 
 ====Proof of Computation====
 
