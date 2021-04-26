@@ -135,6 +135,9 @@ According to various sources such as [https://www.cryptovantage.com/news/chinas-
 When taking into consideration the sustainability problem and problems related to power consumption, renewables are too simple of an answer. The fact that it is still increasingly energy intensive, means increasing costs with renewables. It also means problems in regards to scalability and speed. The transaction times of the network are also quite slow considering the computing power it relies on.
 
 ====Proof of Computation====
+For PoCP in regards to this hardfork, a hybrid algorithm is likely the way to go. An example of a network integrating a hybrid algorithm would be something like [https://getlynx.io/ Lynx], however it disenfranchises ASIC miners on purpose. Instead of focusing on ease of mining, it is better to focus on ease of compatibility. This is why it would make more sense to focus on the hyrbid consensus that bridges the gab for PoST compatibility along w/ traditional PoW. Although PoST is a form of PoW, I meant traditional PoW in regards to tailoring towards traditionally targeted or utilized hardware.
+
+A simple hybrid implementation could be between the [https://github.com/tromp/cuckoo Cuck(at)oo Cycle PoW] and PoST or one can do a hybrid implementation w/ traditional HashCash & SHA256 and PoST.  
 
 ====Cryptographic Generation====
 
