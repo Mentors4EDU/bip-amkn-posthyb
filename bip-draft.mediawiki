@@ -116,7 +116,7 @@ Outside of hardware availability, is also a need for an algorithm to be optimize
 ===Core Considerations===
 As noted, in regards to this hardfork and BIP proposal, there are many things to consider. These things include potential weaknesses in regards to Bitcoin and how it can be improved, energy consumption, the new mining algorithm, hashing and cryptography. By weakness, we are taking into account code and architecture as well as certain protocols, but not the overall system design. We are trying to find ways these things can be improved.
 
-As the author of this BIP proposal, it is important to reiterate that the core is adaptability in regards to scalability and security. Secondary to this core, energy efficiency is a plus. As previously stated, "the aim is for more optimal cryptographic efficiency and sustainable security in the future". Henceforce, this is why this project is being developed.
+As the author of this BIP proposal, it is important to reiterate that the core is adaptability in regards to scalability and security. Secondary to this core, energy efficiency is a plus. As previously stated, "the aim is for more optimal cryptographic efficiency and sustainable security in the future". Henceforth, this is why this project is being developed.
 
 ====Bitcoin's Weakness====
 
