@@ -119,7 +119,11 @@ As noted, in regards to this hardfork and BIP proposal, there are many things to
 As the author of this BIP proposal, it is important to reiterate that the core is adaptability in regards to scalability and security. Secondary to this core, energy efficiency is a plus. As previously stated, "the aim is for more optimal cryptographic efficiency and sustainable security in the future". Henceforth, this is why this project is being developed.
 
 ====Bitcoin's Weakness====
-Many cybersecurity experts believe that the way Bitcoin is currently developed, its encryption can easily be broken in a Post-Quantum world or through solving unsolved mathematical proofs that may be theoretically solveable. I also want to note that some researchers have proposed a [https://arxiv.org/abs/2012.15799 Post-Quantum Blockchain] or a [ https://eprint.iacr.org/2020/1362.pdf Lattice-Based Proof-of-Work Consensus]. However, these systems are different then what is being proposed in this BIP. 
+Many cybersecurity experts believe that the way Bitcoin is currently developed, its encryption can easily be broken in a Post-Quantum world or through solving unsolved mathematical proofs that may be theoretically solveable. I also want to note that some researchers have proposed a [https://arxiv.org/abs/2012.15799 Post-Quantum Blockchain] or a [ https://eprint.iacr.org/2020/1362.pdf Lattice-Based Proof-of-Work Consensus]. However, these systems are different then what is being proposed in this BIP. In regards to cybersecurity, I have a preferred method in regards to tackling this. This has been iterated, as well as potential solutions to other problems Bitcoin may have.
+
+One of the bigger problems, is energy consumption as well as the fact that Bitcoin may be subject to centralized mining. Given the sudden over-reliance on expensive specialized hardware, and rising problems in network speed and gas fees, I think simply solving the root would be the easiest method of tackling this. 
+
+It is also worth noting that some hardforks to an extent have successfully upgraded or changed the mining algorithm. An example of this to an extent may even be something like [https://litecoin.org/ Litecoin]. Infact, many people would say Litecoin is one of the better examples out there.
 
 =====Energy Consumption=====
 
