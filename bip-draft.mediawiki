@@ -126,6 +126,7 @@ One of the bigger problems, is energy consumption as well as the fact that Bitco
 It is also worth noting that some hardforks to an extent have successfully upgraded or changed the mining algorithm. An example of this to an extent may even be something like [https://litecoin.org/ Litecoin]. Infact, many people would say Litecoin is one of the better examples out there. Litecoin also has the problem of disenfranchising ASIC miners and similar future security risks.
 
 =====Energy Consumption=====
+There are many stats worth iterating when taking into account Bitcoin's energy consumption. Also, even if lots of BTC is mined with renewables in the future, an energy consumption problem that can be avoided should lead to a more optimal blockchain regardless.
 
 ====Proof of Computation====
 
