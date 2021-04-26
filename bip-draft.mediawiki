@@ -119,6 +119,7 @@ As noted, in regards to this hardfork and BIP proposal, there are many things to
 As the author of this BIP proposal, it is important to reiterate that the core is adaptability in regards to scalability and security. Secondary to this core, energy efficiency is a plus. As previously stated, "the aim is for more optimal cryptographic efficiency and sustainable security in the future". Henceforth, this is why this project is being developed.
 
 ====Bitcoin's Weakness====
+Many cybersecurity experts believe that the way Bitcoin is currently developed cryptography-wise, the hashing can easily be broken in a Post-Quantum world or through solving unsolved mathematical proofs that may be theoretically solveable. I also want to note that some researchers have proposed a [https://arxiv.org/abs/2012.15799 Post-Quantum Blockchain] or a [Lattice-Based Proof-of-Work Consensus https://eprint.iacr.org/2020/1362.pdf]. However, these systems are different then what is being proposed here. 
 
 =====Energy Consumption=====
 
