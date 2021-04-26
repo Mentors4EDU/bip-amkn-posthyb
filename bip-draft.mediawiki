@@ -114,6 +114,7 @@ I also believe the PoW algorithm can be modified to allow mining the way it is c
 Outside of hardware availability, is also a need for an algorithm to be optimized towards less invalidated blocks. This will be feasible with complex data store functionalities.
 
 ===Core Considerations===
+As noted, in regards to this hardfork and BIP proposal, there are many things to consider. These things include potential weaknesses in regards to Bitcoin and how it can be improved, energy consumption, the new mining algorithm, hashing and cryptography. By weakness, we are taking into account code and architecture as well as certain protocols, but not the overall system design. We are trying to find ways these things can be improved.
 
 ====Bitcoin's Weakness====
 
