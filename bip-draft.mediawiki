@@ -123,7 +123,7 @@ Many cybersecurity experts believe that the way Bitcoin is currently developed, 
 
 One of the bigger problems, is energy consumption as well as the fact that Bitcoin may be subject to centralized mining. Given the sudden over-reliance on expensive specialized hardware, and rising problems in network speed and gas fees, I think simply solving the root would be the easiest method of tackling this. 
 
-It is also worth noting that some hardforks to an extent have successfully upgraded or changed the mining algorithm. An example of this to an extent may even be something like [https://litecoin.org/ Litecoin]. Infact, many people would say Litecoin is one of the better examples out there.
+It is also worth noting that some hardforks to an extent have successfully upgraded or changed the mining algorithm. An example of this to an extent may even be something like [https://litecoin.org/ Litecoin]. Infact, many people would say Litecoin is one of the better examples out there. Litecoin also has the problem of disenfranchising ASIC miners and similar future security risks.
 
 =====Energy Consumption=====
 
