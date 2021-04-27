@@ -157,6 +157,7 @@ We would introduce <code>algoType</code> as a method for reading the algorithms 
 This shouldn't disenfranchise current ASIC miners, and can be utilized in a way that accepts specific memory-hard functions as well. We are basically creating an entire method where the validation process is a form of verifiable computing. This is in regards to the algorithms working on the hashing, confirming transactions and validating blocks.
 
 ====Cryptographic Generation====
+There are many things to consider in regards to the cryptography, especially considering Bitcoin's chosen key verification method and its reliance on SHA-256. To reinstate a prior point, the preferred method in this BIP is NP-Complete and quantum-resistant. Since the simplest method should be reliant on key verification, perhaps some form of high entrophy ciphertext can do the trick. It may be similar to diceware in paraphasing, with a heavy reliance on randomization and recomputation.
 
 =====Quantum Random Numbers=====
 
