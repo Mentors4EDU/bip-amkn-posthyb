@@ -139,9 +139,11 @@ For PoCP in regards to this hardfork, a hybrid algorithm is likely the way to go
 
 A simple hybrid implementation could be between the [https://github.com/tromp/cuckoo Cuck(at)oo Cycle PoW] and PoST or one can do a hybrid implementation w/ traditional HashCash & SHA256 and PoST. In regards to hybrids in the past, most of them seem to be hybrids of PoW and PoS (Proof of Stake) with exceptions being things like [https://www.semanticscholar.org/paper/A-New-Hybrid-Consensus-Protocol%3A-Deterministic-Of-Cheng-Wu/b77cf3bd5c450e10e7e428f9997906e92073b5ab Deterministic Proof of Work (DPoW)] and [https://link.springer.com/chapter/10.1007%2F978-3-030-60248-2_29 DSBFT].
 
+In regards to our hybrid consensus proof, lots of the core variables would probably look alot like this:
+
   Function PoCP
      Inputs:  
-        transaction (t):  // unconfirmed transactions
+        transaction (t):  // unconfirmed transaction
         epoch_time(e):  // current epoch time
         algoType(a):  // mining algorithm
         block_n (n):  // block number
