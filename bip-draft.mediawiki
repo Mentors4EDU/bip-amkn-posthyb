@@ -152,6 +152,8 @@ In regards to our hybrid consensus proof, lots of the core variables would proba
      Output:  
         block_nx:  // next block
 
+We would introduce <code>algoType</code> as a method for reading the algorithms used in the hybrid consensus. 
+
 ====Cryptographic Generation====
 
 =====Quantum Random Numbers=====
