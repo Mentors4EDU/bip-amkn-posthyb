@@ -141,14 +141,14 @@ A simple hybrid implementation could be between the [https://github.com/tromp/cu
 
   Function PoCP
      Inputs:  
-        transaction (t):  
-        epoch_time(e):  
-        algoType(a):  
-        block_n (n):  
-        key (k):  
-        hashType (h):  
+        transaction (t):  // unconfirmed transactions
+        epoch_time(e):  // current epoch time
+        algoType(a):  // mining algorithm
+        block_n (n):  // block number
+        key (k):  // validation key
+        hashType (h):  // hash type
      Output:  
-        block_nx:  
+        block_nx:  // next block
 
 ====Cryptographic Generation====
 
