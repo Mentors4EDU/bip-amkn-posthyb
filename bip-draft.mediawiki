@@ -152,7 +152,9 @@ In regards to our hybrid consensus proof, lots of the core variables would proba
      Output:  
         block_nx:  // next block
 
-We would introduce <code>algoType</code> as a method for reading the algorithms used in the hybrid consensus. 
+We would introduce <code>algoType</code> as a method for reading the algorithms used in the hybrid consensus. As mentioned earlier, we are looking for a PoW and PoST hybrid consensus, which may be applicable by recognizing both algorithms within the platform in regards to validation methods. 
+
+This shouldn't disenfranchise current ASIC miners, and can be utilized in a way that accepts specific memory-hard functions as well. We are basically creating an entire method where the validation process is a form of verifiable computing. This is in regards to the algorithms working on the hashing, confirming transactions and validating blocks.
 
 ====Cryptographic Generation====
 
