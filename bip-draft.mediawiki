@@ -169,6 +169,11 @@ The three methods preferred by the author of this BIP are potentially deciding o
 In regards to the style or nature of the implementation, this has already been determined as likely a quantum-safe key encapsulation mechanism.
 
 ======Cipher Mechanisms======
+Since one will do a key and paraphrasing mechanism such as quantum-safe key encapsulation, the focus would likely be primarily on randomization. The cipher mechanism would require the following:
+* Quantum paraphrasing for the keys
+* Generated seed based on cipher mechanism
+* Randomization for the parphasing generation
+It is worth noting that Quantum-resistant keys or cryptographic variations when integrated, shouldn't have that much of an effect in regards to network speed. It is more in relation to a security upgrade as opposed to mining which is tied to speed and efficiency. However, it would be optimal for it to be as robust as possible so that speed can be a key advantage along with security.
 
 ====Overall Hardfork and Blockchain====
 
