@@ -176,6 +176,11 @@ Since one will do a key and paraphrasing mechanism such as quantum-safe key enca
 It is worth noting that Quantum-resistant keys or cryptographic variations when integrated, shouldn't have that much of an effect in regards to network speed. It is more in relation to a security upgrade as opposed to mining which is tied to speed and efficiency. However, it would be optimal for it to be as robust as possible so that speed can be a key advantage along with security.
 
 ====Overall Hardfork and Blockchain====
+Regarding the specifications, hopefully this has been as explanatory as possible in regards to the expected parameters or technological implementation this harkfork would need. There has been general discussion in regards to whether or not this BIP should be broken down into multiple BIPs. However, I think since this is in relation to the same hardfork and the target is still optimization, speed and security, a single BIP makes more sense. 
+
+There are also other things I may do in regards to this hardfork such as change the total supply from 21M to 21B, but technological aspects in regards to supply, aesthetics, or things outside of protocol or consensus upgrades aren't meaningful to include in this BIP. The core is to stay focused. 
+
+In regards to discussions related to whether or not this should be a soft or hardfork, since there are dramatic changes taking place in regards to the mining algorithm, hashing and signature, it makes more sense to introduce this as a hardfork. Afterall, the hope in regards to successful hardforks is community adaption.
 
 ==Backwards compatibility==
 This should be backwards compatible with stratum and [https://github.com/bitcoin/bips BIP 40 and 41]. Things such as blind merged mining in [https://github.com/bitcoin/bips/blob/master/bip-0301.mediawiki BIP 301], will likely not work. [https://github.com/bitcoin/bips/blob/master/bip-0340.mediawiki BIP 340] is implemented specifially for secp256k1. In regards to [https://github.com/bitcoin/bips/blob/master/bip-0151.mediawiki BIP 151] compatibility, BIP 151 was already withdrawn.
