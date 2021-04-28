@@ -162,6 +162,7 @@ There are many things to consider in regards to the cryptography, especially con
 For sake of simplicity, the best method in regards to paraphrasing may be something similar to the McEliece cryptosystem or a variation of hashing centered around quantum random numbers. A quantum random number hashing iteration would be high entropy and less vulnerable, as opposed to algorithms centered towards classical computing that have a more deterministic element to it. [https://www.idquantique.com/random-number-generation/overview/ QRNG] or quantum random number generators, can be utilized in the crypo space for potential post-quantum encryption candidates.
 
 =====Quantum Random Numbers=====
+Since many QRN generators are hardware-based or require an API, it is likely better to focus on the key mechanisms and paraphrasing elements of quantum-safe cryptography, as it is optimal in the very beginning to run a variation of quantum-safe cryptography through a quantum-safe key encapsulation mechanism and hash functions directly in the code. [https://github.com/open-quantum-safe/liboqs Liboqs] is a decent place to reference.
 
 ======Cipher Mechanisms======
 
