@@ -164,6 +164,10 @@ For sake of simplicity, the best method in regards to paraphrasing may be someth
 =====Quantum Random Numbers=====
 Since many QRN generators are hardware-based or require an API, it is likely better to focus on the key mechanisms and paraphrasing elements of quantum-safe cryptography, as it is optimal in the very beginning to run a variation of quantum-safe cryptography through a quantum-safe key encapsulation mechanism and hash functions directly in the code. [https://github.com/open-quantum-safe/liboqs Liboqs] is a decent place to reference.
 
+The three methods preferred by the author of this BIP are potentially deciding on Classic McEliece, the Quantum Diceware method (which is quite similar), or a variation of hashing likely centered around Quantum recursiveness. What all these have in common are key and paraphasing mechanisms. The cryptographic implementation is to be determined based off of benchmarking which results will be optimal for speed. There also needs to be ease of simplicity. 
+
+In regards to the style or nature of the implementation, this has already been determined as likely a quantum-safe key encapsulation mechanism.
+
 ======Cipher Mechanisms======
 
 ====Overall Hardfork and Blockchain====
