@@ -159,6 +159,8 @@ This shouldn't disenfranchise current ASIC miners, and can be utilized in a way 
 ====Cryptographic Generation====
 There are many things to consider in regards to the cryptography, especially considering Bitcoin's chosen key verification method and its reliance on SHA-256. To reinstate a prior point, the preferred method in this BIP is NP-Complete and quantum-resistant. Since the simplest method should be reliant on key verification, perhaps some form of high entrophy ciphertext can do the trick. It may be similar to diceware in paraphasing, with a heavy reliance on randomization and recomputation.
 
+For sake of simplicity, the best method in regards to paraphrasing may be something similar to the McEliece cryptosystem or a variation of hashing centered around quantum random numbers. A quantum random number hashing iteration would be high entropy and less vulnerable, as opposed to algorithms centered towards classical computing that have a more deterministic element to it. [https://www.idquantique.com/random-number-generation/overview/ QRNG] or quantum random number generators, can be utilized in the crypo space for potential post-quantum encryption candidates.
+
 =====Quantum Random Numbers=====
 
 ======Cipher Mechanisms======
